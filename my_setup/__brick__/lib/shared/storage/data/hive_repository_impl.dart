@@ -1,0 +1,3 @@
+
+
+// class HiveRepositoryImpl implements IHiveRepository {}

@@ -1,0 +1,45 @@
+name: {{project_name}}
+descrition: "Only setup project"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  another_flushbar: ^1.12.32
+  dio: ^5.9.2
+  flutter_modular: ^6.4.1
+  flutter_secure_storage: ^10.0.0
+  flutter_svg: ^2.2.4
+  freezed_annotation: any
+  gap: ^3.0.1
+  hive_ce: ^2.19.3
+  hive_ce_flutter: ^2.3.4
+  intl: ^0.20.2
+  loader_overlay: ^5.0.0
+  pretty_dio_logger: ^1.4.0
+  rename: ^3.1.0
+
+dev_dependencies:
+  build_runner: ^2.12.2
+  flutter_gen_runner: ^5.13.0
+  flutter_lints: ^3.0.0
+  freezed: any
+  hive_ce_generator: ^1.11.1
+  json_serializable: any
+
+flutter:
+  config:
+    enable-uiscene-migration: false
+  uses-material-design: true
+  generate: true
+  # To add assets
+  # assets:
+  #   - assets/images/
+  # To add fonts
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #         weight: 400
