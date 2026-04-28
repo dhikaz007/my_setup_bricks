@@ -6,12 +6,12 @@ version: 0.1.0+1
 environment:
   mason: ^0.1.2
 
-vars:
-  project_name:
-    type: string
-    description: Nama project baru
-    default: my_app
-  package_name:
-    type: string
-    description: Nama package (com.example.app)
-    default: com.example.myapp
+# vars:
+#   project_name:
+#     type: string
+#     description: Nama project baru
+#     default: my_app
+#   package_name:
+#     type: string
+#     description: Nama package (com.example.app)
+#     default: com.example.myapp
