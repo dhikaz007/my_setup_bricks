@@ -1,10 +1,10 @@
-name: {{project_name}}
-descrition: "Only setup project"
-publish_to: "none"
-version: 1.0.0+1
+# name: {{project_name}}
+# descrition: "Only setup project"
+# publish_to: "none"
+# version: 1.0.0+1
 
-environment:
-  sdk: ^3.6.0
+# environment:
+#   sdk: ^3.6.0
 
 dependencies:
   another_flushbar: ^1.12.32
